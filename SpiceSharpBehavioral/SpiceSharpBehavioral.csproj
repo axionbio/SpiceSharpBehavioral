@@ -45,8 +45,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SpiceSharp" Version="2.8.0" />
     <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SpiceSharp\SpiceSharp\SpiceSharp.csproj" />
   </ItemGroup>
 
 </Project>
